@@ -16,6 +16,10 @@ import javax.swing.JOptionPane; // pop-up dialog box
 
 public class Game extends Frame implements MouseListener, AlarmListener, KeyListener
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Window myWindow;
 	private ControlPad controller;
 	private int mouseX, mouseY;
